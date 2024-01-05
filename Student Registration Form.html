@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Registration Form</title>
+    <script>
+        function a1() {
+        window.alert("Registration is  completed")
+        }
+       </script>
+       <link rel="stylesheet" href="student.css">
+</head>
+<body>
+<form>
+ <center>
+ <h1> Student Registration Form</h1>
+ </center>
+ <p>Fill in this form to Register</p><br>
+ <label>AadharCard No <input type="text" placeholder="Enter your adhaar No" name=" " required><sup>*</sup><br><br>
+ <label>First Name  <input type="text" placeholder="Enteryour first name" name=" " required><sup>*</sup><br><br>
+ <label>last Name  <input type="text" placeholder="Enter your last name" name=" " required><br><br>
+ <label>Birth Date <input type="date" placeholder="dd/mm/yyyy" name=" " required><sup>*</sup><br><br>
+<label>USN  <input type="text" placeholder="Enter your usn number" name=" " required><sup>*</sup><br><br>
+ <label>Set Username  <input type="text" placeholder="Enter your username" name=" " required><sup>*</sup><br><br>
+<label>Set Password<input type="password" placeholder="Enter your password" name=" " required><sup>*</sup><br><br>
+ <label>Gender : </label> <input type="radio" />Male
+ <input type="radio" />Female<input type="radio"/>Others<br><br>
+ <label>WhatsApp Number <input type="text" placeholder="Enter Phone Numbers" name=" " required><span 
+    class="spacer"></span>
+ <label>Phone Number <input type="text" placeholder="Enter Phone Numbers" name=" " required><sup>*</sup><br><br>
+<label>Email Id<input type="text" placeholder="Enter your E-mail" name=" " required><sup>*</sup><br><br>
+ <label>Address: </label><br><br>
+ State
+ <select name="s">
+ <option></option>
+ <option>TAMILNADU </option>
+ <option>KARNATAKA</option>
+ </select><sup>*</sup><span class="spacer"></span>
+ District
+ <select name="s">
+ <option></option>
+ <option>DAVANGERE</option>
+ <option>CHITRADURGA</option>
+ </select><sup>*</sup>  
+ <label>PinCode<input type="text"><sup>*</sup><br><br>
+ <label> Course : </label><input type="text" /> <span 
+class="spacer"></span><label>Branch : </label><input type="text" /><br><br>
+<h2 style="color:red"><b>All fields red marked with an asterisk(*) are required compulsory</b></h2>
+
+ <center><button type="button" onclick="a1()">SUBMIT</button><span 
+class="spacer"></span>
+ <button onclick="window.location.reload();">CLEAR</button></center>
+ 
+</form>
+</body>
+</html>
